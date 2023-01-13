@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:wght@300;700&family=Poppins:wght@300;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  background-color: #edf1f4;
+}
+
+.box {
+  position: relative;
+}
+
+.container {
+  position: relative;
+  min-width: 400px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2), -15px -15px 30px #fff;
+}
+
+#dycalendar {
+  width: 100%;
+  padding: 30px 30px 0;
+}
+#dycalendar table {
+  width: 100%;
+  border-spacing: 15px;
+  margin-top: 40px;
+}
+#dycalendar tr:nth-child(1) td {
+  background-color: rgb(106, 65, 255);
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 300;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -5px -5px 10px #fff;
+  border: 2px solid #edf1f4;
+}
+#dycalendar tr:nth-child(1) td:nth-child(1) {
+  background-color: rgb(190, 84, 84);
+}
+#dycalendar td {
+  color: #777;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: 300;
+  border-radius: 10px;
+  font-size: 1.25em;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgb(255, 255, 255);
+}
+#dycalendar td:hover {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 10px rgb(255, 255, 255);
+}
+#dycalendar td:first-child {
+  color: rgb(190, 84, 84);
+}
+#dycalendar .dycalendar-target-date {
+  background-color: rgb(106, 65, 255);
+  color: #fff !important;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7), -5px -5px 10px rgb(255, 255, 255) !important;
+}
+#dycalendar .prev-btn {
+  width: 48px;
+  height: 45px;
+  font-size: 2em;
+  left: 15px;
+  color: #777;
+  background-color: #edf1f4;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgb(255, 255, 255);
+}
+#dycalendar .prev-btn:active {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 10px rgb(255, 255, 255);
+}
+#dycalendar .next-btn {
+  width: 48px;
+  height: 45px;
+  font-size: 2em;
+  right: 15px;
+  color: #777;
+  background-color: #edf1f4;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgb(255, 255, 255);
+}
+#dycalendar .next-btn:active {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1), inset -5px -5px 10px rgb(255, 255, 255);
+}
+#dycalendar .dycalendar-span-month-year {
+  color: #777;
+  font-size: 2em;
+}/*# sourceMappingURL=style.css.map */
